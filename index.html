@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,  initial-scale=1.0, user-scaleable=no">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cal+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
+  <script src="../script/event.js"></script>
+</head>
+<body id="bg">
+
+  <div class="header">
+    <button onclick="menu()">☰</button>
+    <div class="header-title">
+      <p>PULL ME!</p>
+    </div>
+  </div>
+  
+  <div id="container" onclick="klik()">
+    <p id="title">PULL SWORD!<br><span id="tap">0</span>TAPS</p>
+    <img id="stone" src="../assets/stone.png">
+    <img id="sword" src="../assets/basic_sword.png">
+  </div>
+  
+  <div class="play" id="play">
+    <p id="msg">!</p>
+    <div class="play-button">
+      <button id="next" onclick="next()">Next</button>
+      <button id="ulang" onclick="ulang()">Try Again</button>
+    </div>
+  </div>
+
+</body>
+</html>
